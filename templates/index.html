@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stock Screener v5 · KASE+Global 🇰🇿</title>
+<link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+<!-- ── HEADER ───────────────────────────────────────────── -->
+<header>
+  <span class="brand-name">SCREENER</span>
+  <span class="brand-v">v5 · KASE+Global 🇰🇿</span>
+  <div class="hsp"></div>
+  <div id="spill"><span class="dp"></span><span id="stxt">Готов к запуску</span></div>
+</header>
+
+<!-- top progress bar (id=pgbar / pgfill) -->
+<div id="pgbar"><div id="pgfill"></div></div>
+
+<!-- ── CONTROLS ─────────────────────────────────────────── -->
+<div class="ctl">
+  <div class="sw">
+    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="search" placeholder="Поиск: KSPI, Emerging, Bank…" oninput="applyF()">
+  </div>
+
+  <select id="qsel" onchange="applyF()">
+    <option value="all">Все компании</option>
+    <option value="high">★ Топ ≥70%</option>
+    <option value="mid">◆ 40–70%</option>
+    <option value="low">▼ &lt;40%</option>
+  </select>
+
+  <select id="rsel" onchange="applyF()">
+    <option value="all">Все регионы</option>
+    <option value="US">🇺🇸 US</option>
+    <option value="Europe">🇪🇺 Europe</option>
+    <option value="Asia">🌏 Asia</option>
+    <option value="Emerging">🌍 Emerging</option>
+    <option value="KZ">🇰🇿 Kazakhstan (KASE)</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <select id="ssel" onchange="applyF()">
+    <option value="all">Все секторы</option>
+  </select>
+
+  <select id="sortsel" onchange="applyF()">
+    <option value="score_pct">Score ↓</option>
+    <option value="market_cap">Mkt Cap</option>
+    <option value="pe_ratio">P/E</option>
+    <option value="pb_ratio">P/B</option>
+    <option value="roe_pct">ROE %</option>
+    <option value="net_income">Net Income</option>
+    <option value="price">Цена</option>
+  </select>
+
+  <input type="text" id="tkinput"
+    placeholder="KSPI HSBK.KZ AAPL … (пусто = весь список)">
+
+  <button class="btn bp" id="fbtn" onclick="startFetch()">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/>
+    </svg>
+    Загрузить
+  </button>
+
+  <button class="btn bg" id="sbtn" onclick="stopFetch()" style="display:none">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
+      <rect x="3" y="3" width="18" height="18" rx="2"/>
+    </svg>
+    Стоп
+  </button>
+
+  <button class="btn" id="clrbtn" onclick="clearAllData()" title="Очистить все загруженные тикеры"
+    style="background:var(--card);color:var(--sub);border:1px solid var(--border)">
+    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/>
+    </svg>
+    Очистить
+  </button>
+
+  <div class="xls-wrap" id="xls-wrap">
+    <button class="btn xls-main" id="xlsbtn" onclick="toggleXlsMenu(event)"
+      title="Экспорт в Excel — нажмите для выбора типа">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+        <polyline points="14 2 14 8 20 8"/>
+        <line x1="12" y1="18" x2="12" y2="12"/>
+        <polyline points="9 15 12 18 15 15"/>
+      </svg>
+      Excel ▾
+    </button>
+    <div class="xls-menu" id="xls-menu">
+      <button class="xls-item" onclick="exportExcel('screener')">
+        <span class="xls-ico">📊</span>
+        <div>
+          <div class="xls-title">Данные тикеров</div>
+          <div class="xls-desc">Мультипликаторы, фин. отчёты, balance sheet</div>
+        </div>
+      </button>
+      <button class="xls-item" onclick="exportExcel('dcf')">
+        <span class="xls-ico">📈</span>
+        <div>
+          <div class="xls-title">DCF Valuation</div>
+          <div class="xls-desc">Модель дисконтирования, FCFF, equity value</div>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <button class="btn bc" id="cmpbtn" onclick="openCompare()" title="Сравнить до 6 акций">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <line x1="18" y1="20" x2="18" y2="10"/>
+      <line x1="12" y1="20" x2="12" y2="4"/>
+      <line x1="6"  y1="20" x2="6"  y2="14"/>
+    </svg>
+    Сравнить
+  </button>
+
+  <span id="clabel"></span>
+</div>
+
+<!-- ── STATS BAR ─────────────────────────────────────────── -->
+<div id="sbar">
+  <div class="sb">
+    <div class="sbl">Загружено</div>
+    <div class="sbv" id="st0">0</div>
+    <div class="sbs">тикеров</div>
+  </div>
+  <div class="sb">
+    <div class="sbl">Лучший Score</div>
+    <div class="sbv" id="st1" style="color:var(--a)">—</div>
+    <div class="sbs" id="st1n">—</div>
+  </div>
+  <div class="sb">
+    <div class="sbl">Avg ROE</div>
+    <div class="sbv" id="st2" style="color:var(--g)">—</div>
+    <div class="sbs">% по выборке</div>
+  </div>
+  <div class="sb">
+    <div class="sbl">Ideal метрик</div>
+    <div class="sbv" id="st3" style="color:var(--y)">—</div>
+    <div class="sbs">avg / компания</div>
+  </div>
+  <div class="sb">
+    <div class="sbl">Ошибок</div>
+    <div class="sbv" id="st4" style="color:var(--r)">0</div>
+    <div class="sbs">тикеров</div>
+  </div>
+</div>
+
+<!-- ── MAIN CONTENT ──────────────────────────────────────── -->
+<div id="main">
+  <!-- empty state -->
+  <div id="empty">
+    <div class="el">STOCK<br>SCREENER</div>
+    <p class="es">
+      Нажмите <strong>«Загрузить»</strong> — сервер параллельно запросит Yahoo Finance.<br><br>
+      Введите тикеры через пробел/запятую или оставьте поле пустым для загрузки всего списка.<br><br>
+      <strong>KASE-тикеры</strong> (HSBK.KZ и др.) обрабатываются через несколько вариантов символа.<br>
+      <strong>Рейтинг ideal/good/warn</strong> считается относительно медианы своего региона.
+    </p>
+  </div>
+
+  <!-- table wrapper — hidden until data arrives -->
+  <div class="tw" id="tw" style="display:none">
+    <table id="tbl">
+      <thead><tr>
+        <th onclick="sb('name')">Компания <span class="arr" id="a-name">↕</span></th>
+        <th onclick="sb('region')">Регион <span class="arr" id="a-region">↕</span></th>
+        <th onclick="sb('sector')">Сектор <span class="arr" id="a-sector">↕</span></th>
+        <th onclick="sb('score_pct')" class="act">Score <span class="arr" id="a-score_pct">↓</span></th>
+        <th onclick="sb('price')">Цена <span class="arr" id="a-price">↕</span></th>
+        <th onclick="sb('market_cap')">Mkt Cap <span class="arr" id="a-market_cap">↕</span></th>
+        <th onclick="sb('pe_ratio')">P/E <span class="arr" id="a-pe_ratio">↕</span></th>
+        <th onclick="sb('pb_ratio')">P/B <span class="arr" id="a-pb_ratio">↕</span></th>
+        <th onclick="sb('de_ratio')">D/E <span class="arr" id="a-de_ratio">↕</span></th>
+        <th onclick="sb('ev_ebitda')">EV/EBITDA <span class="arr" id="a-ev_ebitda">↕</span></th>
+        <th onclick="sb('net_debt_ebitda')">ND/EBITDA <span class="arr" id="a-net_debt_ebitda">↕</span></th>
+        <th onclick="sb('roe_pct')">ROE % <span class="arr" id="a-roe_pct">↕</span></th>
+        <th onclick="sb('roa_pct')">ROA % <span class="arr" id="a-roa_pct">↕</span></th>
+        <th onclick="sb('ps_ratio')">P/S <span class="arr" id="a-ps_ratio">↕</span></th>
+        <th onclick="sb('ebitda')">EBITDA <span class="arr" id="a-ebitda">↕</span></th>
+        <th onclick="sb('net_income')">Net Income <span class="arr" id="a-net_income">↕</span></th>
+        <th onclick="sb('fcf')">FCF <span class="arr" id="a-fcf">↕</span></th>
+        <th onclick="sb('eps_trailing')">EPS <span class="arr" id="a-eps_trailing">↕</span></th>
+        <th>52W Range</th>
+        <th>Дата источника</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+
+    <!--
+      id="pgbar-table" is the pagination bar inside the table wrapper.
+      The top loading bar uses id="pgbar"/"pgfill" — different elements.
+    -->
+    <div id="pgbar-table" class="pg-bar"></div>
+
+    <div class="leg">
+      <span class="li"><span class="dot di"></span>Ideal — ±1σ от медианы региона</span>
+      <span class="li"><span class="dot dg"></span>Good — ±2σ</span>
+      <span class="li"><span class="dot dw"></span>Warn — за пределами</span>
+      <span class="li"><span class="dot dn"></span>N/A</span>
+      <span class="lnote">Рейтинги считаются внутри каждого региона · Yahoo Finance · KASE · Investing.com</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── PERSISTENT COMPARE TRAY ───────────────────────────── -->
+<!-- Visible whenever cmpSet has ≥1 ticker; persists across table pages -->
+<div id="cmp-tray" class="cmp-tray" style="display:none">
+  <div class="cmp-tray-label">Сравнение:</div>
+  <div id="cmp-tray-chips" class="cmp-tray-chips"></div>
+  <button class="btn bc" onclick="openCompare()" id="cmp-tray-go" style="padding:5px 12px;font-size:11px">
+    Сравнить
+  </button>
+  <button class="btn bg" onclick="resetCmp()" style="padding:5px 12px;font-size:11px">
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/>
+    </svg>
+    Сбросить
+  </button>
+</div>
+
+<!-- ── DETAIL MODAL ──────────────────────────────────────── -->
+<div class="ov" id="ov" onclick="ovc(event)">
+  <div class="modal" id="modal">
+    <div class="mx" onclick="closeMod()">✕</div>
+    <div id="mi"></div>
+  </div>
+</div>
+
+<!-- ── COMPARE MODAL ─────────────────────────────────────── -->
+<div class="ov" id="cmpov" onclick="if(event.target===this)closeCompare()">
+  <div class="modal" style="max-width:960px" id="cmpmodal">
+    <div class="mx" onclick="closeCompare()">✕</div>
+    <div id="cmpmi"></div>
+  </div>
+</div>
+
+<script src="../script/app.js"></script>
+</body>
+</html>
