@@ -1,0 +1,897 @@
+{
+  "fetched_ts": 1788796627.5221925,
+  "as_of": "2026-09-07",
+  "source": "Aswath Damodaran country risk premium dataset",
+  "rows": {
+    "abu dhabi": {
+      "total_erp_pct": 4.8690645163649595,
+      "country_risk_premium_pct": 0.6390645163649599,
+      "default_spread_pct": 0.4195048511608233
+    },
+    "albania": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "andorra (principality of)": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "angola": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "argentina": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "armenia": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "aruba": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "australia": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "austria": {
+      "total_erp_pct": 4.585507581377215,
+      "country_risk_premium_pct": 0.35550758137721544,
+      "default_spread_pct": 0.23336791699920192
+    },
+    "azerbaijan": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "bahamas": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "bahrain": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "bangladesh": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "barbados": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "belarus": {
+      "total_erp_pct": 30.889117303269014,
+      "country_risk_premium_pct": 26.659117303269014,
+      "default_spread_pct": 17.5
+    },
+    "belgium": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "belize": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "benin": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "bermuda": {
+      "total_erp_pct": 5.32553917091136,
+      "country_risk_premium_pct": 1.0955391709113598,
+      "default_spread_pct": 0.7191511734185543
+    },
+    "bolivia": {
+      "total_erp_pct": 19.76535407639581,
+      "country_risk_premium_pct": 15.53535407639581,
+      "default_spread_pct": 10.197963167504778
+    },
+    "bosnia and herzegovina": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "botswana": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "brazil": {
+      "total_erp_pct": 7.470970047279439,
+      "country_risk_premium_pct": 3.2409700472794394,
+      "default_spread_pct": 2.1274888880298897
+    },
+    "bulgaria": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "burkina faso": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "cambodia": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "cameroon": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "canada": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "cape verde": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "cayman islands": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "chile": {
+      "total_erp_pct": 5.32553917091136,
+      "country_risk_premium_pct": 1.0955391709113598,
+      "default_spread_pct": 0.7191511734185543
+    },
+    "china": {
+      "total_erp_pct": 5.142949309092799,
+      "country_risk_premium_pct": 0.9129493090928,
+      "default_spread_pct": 0.599292644515462
+    },
+    "colombia": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "congo (democratic republic of)": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "congo (republic of)": {
+      "total_erp_pct": 15.885319512751408,
+      "country_risk_premium_pct": 11.655319512751408,
+      "default_spread_pct": 7.6509694283140615
+    },
+    "cook islands": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "costa rica": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "côte d'ivoire": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "croatia": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "cuba": {
+      "total_erp_pct": 19.76535407639581,
+      "country_risk_premium_pct": 15.53535407639581,
+      "default_spread_pct": 10.197963167504778
+    },
+    "curacao": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "cyprus": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "czech republic": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "denmark": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "dominican republic": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "ecuador": {
+      "total_erp_pct": 17.178664367299547,
+      "country_risk_premium_pct": 12.948664367299545,
+      "default_spread_pct": 8.499967341377634
+    },
+    "egypt": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "el salvador": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "estonia": {
+      "total_erp_pct": 5.142949309092799,
+      "country_risk_premium_pct": 0.9129493090928,
+      "default_spread_pct": 0.599292644515462
+    },
+    "ethiopia": {
+      "total_erp_pct": 15.885319512751408,
+      "country_risk_premium_pct": 11.655319512751408,
+      "default_spread_pct": 7.6509694283140615
+    },
+    "fiji": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "finland": {
+      "total_erp_pct": 4.585507581377215,
+      "country_risk_premium_pct": 0.35550758137721544,
+      "default_spread_pct": 0.23336791699920192
+    },
+    "france": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "gabon": {
+      "total_erp_pct": 15.885319512751408,
+      "country_risk_premium_pct": 11.655319512751408,
+      "default_spread_pct": 7.6509694283140615
+    },
+    "georgia": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "germany": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "ghana": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "greece": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "guatemala": {
+      "total_erp_pct": 7.470970047279439,
+      "country_risk_premium_pct": 3.2409700472794394,
+      "default_spread_pct": 2.1274888880298897
+    },
+    "guernsey (states of)": {
+      "total_erp_pct": 5.142949309092799,
+      "country_risk_premium_pct": 0.9129493090928,
+      "default_spread_pct": 0.599292644515462
+    },
+    "honduras": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "hong kong": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "hungary": {
+      "total_erp_pct": 6.69496313455056,
+      "country_risk_premium_pct": 2.4649631345505596,
+      "default_spread_pct": 1.6180901401917474
+    },
+    "iceland": {
+      "total_erp_pct": 5.142949309092799,
+      "country_risk_premium_pct": 0.9129493090928,
+      "default_spread_pct": 0.599292644515462
+    },
+    "india": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "indonesia": {
+      "total_erp_pct": 6.69496313455056,
+      "country_risk_premium_pct": 2.4649631345505596,
+      "default_spread_pct": 1.6180901401917474
+    },
+    "iraq": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "ireland": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "isle of man": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "israel": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "italy": {
+      "total_erp_pct": 6.69496313455056,
+      "country_risk_premium_pct": 2.4649631345505596,
+      "default_spread_pct": 1.6180901401917474
+    },
+    "jamaica": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "japan": {
+      "total_erp_pct": 5.142949309092799,
+      "country_risk_premium_pct": 0.9129493090928,
+      "default_spread_pct": 0.599292644515462
+    },
+    "jersey (states of)": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "jordan": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "kazakhstan": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "kenya": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "korea": {
+      "total_erp_pct": 4.8690645163649595,
+      "country_risk_premium_pct": 0.6390645163649599,
+      "default_spread_pct": 0.4195048511608233
+    },
+    "kuwait": {
+      "total_erp_pct": 5.142949309092799,
+      "country_risk_premium_pct": 0.9129493090928,
+      "default_spread_pct": 0.599292644515462
+    },
+    "kyrgyzstan": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "laos": {
+      "total_erp_pct": 15.885319512751408,
+      "country_risk_premium_pct": 11.655319512751408,
+      "default_spread_pct": 7.6509694283140615
+    },
+    "latvia": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "lebanon": {
+      "total_erp_pct": 30.889117303269014,
+      "country_risk_premium_pct": 26.659117303269014,
+      "default_spread_pct": 17.5
+    },
+    "liechtenstein": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "lithuania": {
+      "total_erp_pct": 5.32553917091136,
+      "country_risk_premium_pct": 1.0955391709113598,
+      "default_spread_pct": 0.7191511734185543
+    },
+    "luxembourg": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "macao": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "macedonia": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "malaysia": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "maldives": {
+      "total_erp_pct": 15.885319512751408,
+      "country_risk_premium_pct": 11.655319512751408,
+      "default_spread_pct": 7.6509694283140615
+    },
+    "mali": {
+      "total_erp_pct": 15.885319512751408,
+      "country_risk_premium_pct": 11.655319512751408,
+      "default_spread_pct": 7.6509694283140615
+    },
+    "malta": {
+      "total_erp_pct": 5.32553917091136,
+      "country_risk_premium_pct": 1.0955391709113598,
+      "default_spread_pct": 0.7191511734185543
+    },
+    "mauritius": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "mexico": {
+      "total_erp_pct": 6.69496313455056,
+      "country_risk_premium_pct": 2.4649631345505596,
+      "default_spread_pct": 1.6180901401917474
+    },
+    "moldova": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "mongolia": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "montenegro": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "montserrat": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "morocco": {
+      "total_erp_pct": 7.470970047279439,
+      "country_risk_premium_pct": 3.2409700472794394,
+      "default_spread_pct": 2.1274888880298897
+    },
+    "mozambique": {
+      "total_erp_pct": 17.178664367299547,
+      "country_risk_premium_pct": 12.948664367299545,
+      "default_spread_pct": 8.499967341377634
+    },
+    "namibia": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "nepal": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "netherlands": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "new zealand": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "nicaragua": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "niger": {
+      "total_erp_pct": 17.178664367299547,
+      "country_risk_premium_pct": 12.948664367299545,
+      "default_spread_pct": 8.499967341377634
+    },
+    "nigeria": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "norway": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "oman": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "pakistan": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "panama": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "papua new guinea": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "paraguay": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "peru": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "philippines": {
+      "total_erp_pct": 6.69496313455056,
+      "country_risk_premium_pct": 2.4649631345505596,
+      "default_spread_pct": 1.6180901401917474
+    },
+    "poland": {
+      "total_erp_pct": 5.32553917091136,
+      "country_risk_premium_pct": 1.0955391709113598,
+      "default_spread_pct": 0.7191511734185543
+    },
+    "portugal": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "qatar": {
+      "total_erp_pct": 4.8690645163649595,
+      "country_risk_premium_pct": 0.6390645163649599,
+      "default_spread_pct": 0.4195048511608233
+    },
+    "ras al khaimah (emirate of)": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "romania": {
+      "total_erp_pct": 7.075358680005893,
+      "country_risk_premium_pct": 2.845358680005893,
+      "default_spread_pct": 1.8677954087398565
+    },
+    "rwanda": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "saudi arabia": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "senegal": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "serbia": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "sharjah": {
+      "total_erp_pct": 7.470970047279439,
+      "country_risk_premium_pct": 3.2409700472794394,
+      "default_spread_pct": 2.1274888880298897
+    },
+    "singapore": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "slovakia": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "slovenia": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "solomon islands": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "south africa": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "spain": {
+      "total_erp_pct": 5.782013825457759,
+      "country_risk_premium_pct": 1.5520138254577596,
+      "default_spread_pct": 1.018797495676285
+    },
+    "sri lanka": {
+      "total_erp_pct": 19.76535407639581,
+      "country_risk_premium_pct": 15.53535407639581,
+      "default_spread_pct": 10.197963167504778
+    },
+    "st. maarten": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "st. vincent & the grenadines": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "suriname": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "swaziland": {
+      "total_erp_pct": 11.351004610923837,
+      "country_risk_premium_pct": 7.121004610923838,
+      "default_spread_pct": 4.674482627220603
+    },
+    "sweden": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "switzerland": {
+      "total_erp_pct": 4.2299999999999995,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.0
+    },
+    "taiwan": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "tajikistan": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "tanzania": {
+      "total_erp_pct": 10.057659756375703,
+      "country_risk_premium_pct": 5.827659756375704,
+      "default_spread_pct": 3.8254847141570307
+    },
+    "thailand": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "togo": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "trinidad and tobago": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "tunisia": {
+      "total_erp_pct": 13.937694320020103,
+      "country_risk_premium_pct": 9.707694320020103,
+      "default_spread_pct": 6.372478453347743
+    },
+    "turkey": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "turks and caicos islands": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "uganda": {
+      "total_erp_pct": 12.644349465471972,
+      "country_risk_premium_pct": 8.414349465471972,
+      "default_spread_pct": 5.523480540284173
+    },
+    "ukraine": {
+      "total_erp_pct": 19.76535407639581,
+      "country_risk_premium_pct": 15.53535407639581,
+      "default_spread_pct": 10.197963167504778
+    },
+    "united arab emirates": {
+      "total_erp_pct": 4.8690645163649595,
+      "country_risk_premium_pct": 0.6390645163649599,
+      "default_spread_pct": 0.4195048511608233
+    },
+    "united kingdom": {
+      "total_erp_pct": 5.006006912728879,
+      "country_risk_premium_pct": 0.7760069127288798,
+      "default_spread_pct": 0.5093987478381425
+    },
+    "united states": {
+      "total_erp_pct": 4.46,
+      "country_risk_premium_pct": 0.23336791699920192,
+      "default_spread_pct": 0.23336791699920192
+    },
+    "uruguay": {
+      "total_erp_pct": 6.299351767277011,
+      "country_risk_premium_pct": 2.0693517672770128,
+      "default_spread_pct": 1.3583966609017133
+    },
+    "uzbekistan": {
+      "total_erp_pct": 8.88604147637328,
+      "country_risk_premium_pct": 4.656041476373279,
+      "default_spread_pct": 3.0563924870288552
+    },
+    "venezuela": {
+      "total_erp_pct": 30.889117303269014,
+      "country_risk_premium_pct": 26.659117303269014,
+      "default_spread_pct": 17.5
+    },
+    "vietnam": {
+      "total_erp_pct": 8.125250385462612,
+      "country_risk_premium_pct": 3.895250385462613,
+      "default_spread_pct": 2.5569819499326374
+    },
+    "zambia": {
+      "total_erp_pct": 15.885319512751408,
+      "country_risk_premium_pct": 11.655319512751408,
+      "default_spread_pct": 7.6509694283140615
+    },
+    "algeria": {
+      "total_erp_pct": 3.8254847141570307,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 5.827659756375703
+    },
+    "brunei": {
+      "total_erp_pct": 0.5093987478381427,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 0.7760069127288799
+    },
+    "gambia": {
+      "total_erp_pct": 4.674482627220602,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 7.121004610923837
+    },
+    "guinea": {
+      "total_erp_pct": 7.6509694283140615,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 11.655319512751408
+    },
+    "guinea-bissau": {
+      "total_erp_pct": 6.372478453347743,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 9.707694320020103
+    },
+    "guyana": {
+      "total_erp_pct": 1.3583966609017128,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 2.069351767277012
+    },
+    "haiti": {
+      "total_erp_pct": 8.499967341377634,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 12.948664367299545
+    },
+    "iran": {
+      "total_erp_pct": 6.372478453347743,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 9.707694320020103
+    },
+    "korea, d.p.r.": {
+      "total_erp_pct": 10.197963167504778,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 15.53535407639581
+    },
+    "liberia": {
+      "total_erp_pct": 7.6509694283140615,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 11.655319512751408
+    },
+    "libya": {
+      "total_erp_pct": 2.5569819499326374,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 3.895250385462613
+    },
+    "madagascar": {
+      "total_erp_pct": 5.523480540284173,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 8.414349465471972
+    },
+    "malawi": {
+      "total_erp_pct": 8.499967341377634,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 12.948664367299545
+    },
+    "myanmar": {
+      "total_erp_pct": 10.197963167504778,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 15.53535407639581
+    },
+    "russia": {
+      "total_erp_pct": 2.5569819499326374,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 3.895250385462613
+    },
+    "sierra leone": {
+      "total_erp_pct": 5.523480540284173,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 8.414349465471972
+    },
+    "somalia": {
+      "total_erp_pct": 8.499967341377634,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 12.948664367299545
+    },
+    "sudan": {
+      "total_erp_pct": 17.5,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 26.659117303269014
+    },
+    "syria": {
+      "total_erp_pct": 10.197963167504778,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 15.53535407639581
+    },
+    "yemen, republic": {
+      "total_erp_pct": 10.197963167504778,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 15.53535407639581
+    },
+    "zimbabwe": {
+      "total_erp_pct": 7.6509694283140615,
+      "country_risk_premium_pct": 0.0,
+      "default_spread_pct": 11.655319512751408
+    }
+  }
+}
